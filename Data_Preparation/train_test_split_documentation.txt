@@ -1,0 +1,9 @@
+
+Train/Test Split Documentation
+================================
+Total Records : 7043
+Training Set  : 5634 records (80.0%)
+Testing Set   : 1409 records (20.0%)
+Features      : 10
+Split Ratio   : 80% Train / 20% Test
+Random State  : 42
