@@ -1,0 +1,29 @@
+
+ANN Model Evaluation Summary
+==============================
+Dataset        : Dataset_ATS_v2.csv
+Total Records  : 7043
+Training Set   : 5634 records (80%)
+Testing Set    : 1409 records (20%)
+
+Architecture:
+  Input Layer   : 10 neurons
+  Hidden Layer 1: 64 neurons, ReLU, Dropout 0.3
+  Hidden Layer 2: 32 neurons, ReLU, Dropout 0.2
+  Output Layer  : 1 neuron, Sigmoid
+
+Training Config:
+  Optimizer     : Adam
+  Loss Function : Binary Crossentropy
+  Epochs        : 50 (Early Stopping patience=10)
+  Batch Size    : 32
+
+Performance:
+  Accuracy      : 78.78%
+  ROC-AUC Score : 0.8066
+
+Confusion Matrix:
+  True Negatives : 933
+  False Positives: 102
+  False Negatives: 197
+  True Positives : 177
